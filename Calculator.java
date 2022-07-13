@@ -16,7 +16,7 @@ import java.awt.event.ActionEvent;
 import java.awt.Font;
 import javax.swing.JLabel;
 
-public class Form_5 extends JFrame {
+public class Calculator extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField Screen;
