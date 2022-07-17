@@ -101,7 +101,7 @@ public class Color_selection extends JFrame {
 					color = "Blue";
 				}
 				
-				lblNewLabel_1.setIcon(new ImageIcon(Color_selection.class.getResource("color +
+				lblNewLabel_1.setIcon(new ImageIcon(Color_selection.class.getResource(color +
 						textField.getText() + ".jpg")));
 			}
 		});
