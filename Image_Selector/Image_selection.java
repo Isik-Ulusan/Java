@@ -63,7 +63,7 @@ public class Image_selection extends JFrame {
 		JButton btnNewButton = new JButton("Select Image");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				lblNewLabel_1.setIcon(new ImageIcon(Image_selection.class.getResource("/img/character"+comboBox.getSelectedItem()+".png")));
+				lblNewLabel_1.setIcon(new ImageIcon(Image_selection.class.getResource("character"+comboBox.getSelectedItem()+".png")));
 			}
 		});
 		btnNewButton.setBounds(261, 30, 114, 23);
